@@ -1,4 +1,3 @@
-
 ul {
 	list-style-type: none;
 	margin: 0;
@@ -24,6 +23,11 @@ li a:hover:not(.active) {
 	background-color: #B03754;
 }
 
+h1{
+	background-color: #1F6DB0;
+	color: white;
+	text-align: center;
+}
 
 #photos{
 	margin-top: 20px;
@@ -102,4 +106,21 @@ input[type=submit]:hover {
 		width: 100%;
 		margin-top: 0;
 	}
+}
+.zoom {
+	padding: 10px;
+	transition: transform .2s;
+	width: 400px;
+	height: 400px;
+	margin: 0 auto;
+}
+
+.zoom:hover {
+	-ms-transform: scale(1.4); /* IE 9 */
+	-webkit-transform: scale(1.4); /* Safari 3-8 */
+	transform: scale(1.4);
+}
+
+.photos{
+	padding-left: 70px;
 }
